@@ -1,0 +1,65 @@
+{
+  "sources": {
+    "td-agent": {
+      "locked_version": "0.0.1",
+      "git": "https://github.com/treasure-data/chef-td-agent.git",
+      "ref": "e59c017560cebc689f23827c368e5be9c6b2b77d"
+    },
+    "elasticsearch": {
+      "locked_version": "0.3.7"
+    },
+    "kibana": {
+      "locked_version": "1.1.5",
+      "git": "https://github.com/lusis/chef-kibana.git",
+      "ref": "abbed9e32b0862f80346be0950e335ae2fc51577"
+    },
+    "apt": {
+      "locked_version": "2.0.0"
+    },
+    "yum": {
+      "locked_version": "2.2.4"
+    },
+    "build-essential": {
+      "locked_version": "1.4.0"
+    },
+    "xml": {
+      "locked_version": "1.1.2"
+    },
+    "java": {
+      "locked_version": "1.15.4"
+    },
+    "windows": {
+      "locked_version": "1.10.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "aws": {
+      "locked_version": "0.101.2"
+    },
+    "monit": {
+      "locked_version": "0.7.1"
+    },
+    "ark": {
+      "locked_version": "0.4.0"
+    },
+    "git": {
+      "locked_version": "2.5.2"
+    },
+    "dmg": {
+      "locked_version": "1.1.0"
+    },
+    "runit": {
+      "locked_version": "1.1.4"
+    },
+    "nginx": {
+      "locked_version": "1.7.0"
+    },
+    "ohai": {
+      "locked_version": "1.1.10"
+    },
+    "apache2": {
+      "locked_version": "1.8.4"
+    }
+  }
+}
