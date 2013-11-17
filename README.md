@@ -3,6 +3,8 @@ kibana3-chef-repo
 
 A sample chef repository for Kibana 3
 
+![Fluentd + Elasticsearch + Kibana3](http://cdn-ak.f.st-hatena.com/images/fotolife/m/mi_kattun/20131117/20131117153046_original.png)
+
 Requirements
 ------------
 
