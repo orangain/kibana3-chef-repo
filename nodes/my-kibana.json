@@ -1,0 +1,23 @@
+{
+	"run_list": [
+		"recipe[td-agent]",
+		"recipe[td-agent::elasticsearch]",
+		"recipe[java]",
+		"recipe[elasticsearch]",
+		"recipe[kibana]"
+	],
+
+	"java": {
+		"install_flavor": "openjdk",
+		"jdk_version": "7"
+	},
+
+	"elasticsearch": {
+		"cluster_name" : "elasticsearch_my_kibana",
+		"bootstrap.mlockall" : false
+	},
+
+	"kibana": {
+		"webserver_listen": "0.0.0.0"
+	}
+}
