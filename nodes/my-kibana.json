@@ -13,8 +13,8 @@
 	},
 
 	"elasticsearch": {
-		"cluster_name" : "elasticsearch_my_kibana",
-		"bootstrap.mlockall" : false
+		"cluster_name": "elasticsearch_my_kibana",
+		"bootstrap.mlockall": false
 	},
 
 	"kibana": {
